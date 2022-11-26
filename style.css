@@ -1,3 +1,7 @@
+/* stylelint-disable no-eol-whitespace */
+/* stylelint-disable rule-empty-line-before */
+/* stylelint-disable declaration-colon-newline-after */
+/* stylelint-disable no-duplicate-selectors */
 *,
 *::before,
 *::after {
@@ -55,6 +59,11 @@ img {
   line-height: 50px;
   letter-spacing: 0;
   text-align: left;
+}
+
+.contact h3,
+p {
+  text-align: center;
 }
 
 .container p {
@@ -128,8 +137,30 @@ img {
   flex-direction: column;
 }
 
+.end-note img {
+  width: 25px;
+  height: 25px;
+}
+
+.contact img {
+  width: 120px;
+}
+
 .project-image img {
   margin-top: -25px;
+}
+
+.project-card p img {
+  width: 15px;
+}
+
+.cv p img {
+  width: 30px;
+}
+
+.social-media li img {
+  width: 25px;
+  height: 25px;
 }
 
 .card-5 .project-image img {
@@ -176,10 +207,6 @@ img {
   text-align: center;
 }
 
-.project-card p img {
-  width: 15px;
-}
-
 .about-me {
   display: flex;
   flex-direction: column;
@@ -197,7 +224,6 @@ img {
 }
 
 .about-me p {
-  margin-top: -20px;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -205,10 +231,6 @@ img {
   text-align: left;
   width: 90%;
   margin: 10px auto;
-}
-
-.contact img {
-  width: 120px;
 }
 
 .cv {
@@ -225,10 +247,6 @@ img {
   color: white;
   padding: 10px;
   background: #1a2236;
-}
-
-.cv p img {
-  width: 30px;
 }
 
 .skills {
@@ -359,11 +377,6 @@ form {
   cursor: pointer;
 }
 
-.end-note img {
-  width: 25px;
-  height: 25px;
-}
-
 .end-note {
   color: white;
   margin-top: 5px;
@@ -394,11 +407,6 @@ footer {
   margin-left: -40px;
 }
 
-.social-media li img {
-  width: 25px;
-  height: 25px;
-}
-
 @media (min-width: 769px) {
   .logo,
   .hamburger {
@@ -418,7 +426,7 @@ footer {
     padding: 15px;
     text-decoration: none;
     color: #1a2236;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -469,7 +477,6 @@ footer {
   .container p {
     font-size: 14px;
     font-weight: 400;
-    width: 80%;
     line-height: 21px;
     letter-spacing: -0.01em;
     text-align: left;
@@ -681,9 +688,15 @@ footer {
     margin-top: -6px;
   }
 
-  .skills .languages,
-  .frameworks,
-  .skill {
+  .skills .languages {
+    width: 220px;
+  }
+
+  .skills .frameworks {
+    width: 220px;
+  }
+
+  .skills .skill {
     width: 220px;
   }
 
@@ -693,8 +706,7 @@ footer {
 
   .contact-me {
     width: 100%;
-    background-image:
-      url(images/image-geometry_6.png),
+    background-image: url(images/image-geometry_6.png),
       url(images/image-geometry_7.png);
     background-repeat: no-repeat, no-repeat;
     background-position: 0% 0%, 100% 100%;
@@ -708,11 +720,6 @@ footer {
     display: block;
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .contact h3,
-  p {
-    text-align: center;
   }
 
   .contact p {
