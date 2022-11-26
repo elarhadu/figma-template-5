@@ -1,0 +1,525 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #1a2236;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.logo img {
+  width: 90px;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  float: right;
+  margin-top: -60px;
+  margin-right: 5px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #1a2236;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 15px;
+}
+
+.container h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: justify;
+  margin-top: -20px;
+}
+
+.collaborate {
+  border: #1a2236 2px solid;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  background-color: #1a2236;
+  cursor: pointer;
+}
+
+.geo-img1 {
+  display: none;
+}
+
+.geo-image {
+  margin-top: 25px;
+}
+
+.projects h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 16px;
+}
+
+.project-image img {
+  margin-top: -1px;
+}
+
+.project-card {
+  margin-top: -7px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5px);
+  color: white;
+}
+
+.project-card h3 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.project-card ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding: 10px;
+  margin-top: -22px;
+}
+
+.project-card ul li {
+  color: #1a2236;
+  background-color: #98dede;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.project-card p {
+  border: 1px solid #ffffff;
+  width: 160px;
+  margin-left: 16px;
+  padding: 2px;
+  text-align: center;
+}
+
+.project-card p img {
+  width: 15px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.about-me h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-me p {
+  margin-top: -20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cv {
+  width: 90%;
+  margin: 10px;
+}
+
+.cv p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  left: 16px;
+  color: white;
+  padding: 10px;
+  background: #1a2236;
+}
+
+.cv p img {
+  width: 30px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.languages {
+  background-color: #1c528a;
+  color: white;
+  background-image: url(images/hash.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width: 90%;
+  height: 244px;
+  margin: 10px;
+}
+
+.languages h3 {
+  margin-left: 50px;
+}
+
+.languages ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.frameworks {
+  background: #e2505c;
+  color: white;
+  background-image: url(images/squares.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width: 90%;
+  height: 244px;
+  margin: 10px;
+}
+
+.frameworks h3 {
+  margin-left: 50px;
+}
+
+.frameworks ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.skill {
+  background: #febf52;
+  color: white;
+  background-image: url(images/ic_skills.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width: 90%;
+  height: 244px;
+  margin: 10px;
+}
+
+.skill h3 {
+  margin-left: 50px;
+}
+
+.skill ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  background: #f9f9fa;
+}
+
+.contact img {
+  width: 120px;
+}
+
+.contact h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 18px;
+}
+
+.contact p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-left: 18px;
+  margin-top: -20px;
+}
+
+.forms {
+  margin-left: 18px;
+}
+
+input {
+  width: 95%;
+  min-height: 52px;
+  padding-left: 10px;
+}
+form {
+  width: 100%;
+}
+.message {
+  width: 95%;
+  min-height: 112px;
+  padding-left: 10px;
+}
+
+.next-step p {
+  color: white;
+  background: #1a2236;
+  margin-top: 30px;
+  margin-right: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+
+.end-note {
+  color: white;
+  margin-top: 5px;
+  margin-left: 16px;
+}
+.end-note p {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+}
+.end-note img {
+  width: 25px;
+  height: 25px;
+}
+
+footer {
+  background-color: #1a2236;
+}
+
+.social-media ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin: 0 16px;
+}
+
+.social-media ul li {
+  margin-left: -40px;
+}
+
+.social-media li img {
+  width: 25px;
+  height: 25px;
+}
+
+@media (min-width: 768px) {
+  .logo,
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #ffffff;
+    box-shadow: 0px 0.5px 0px #dddfe6;
+  }
+
+  .nav-menu a {
+    padding: 15px;
+    text-decoration: none;
+    color: #1a2236;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+
+  .nav-menu a:hover {
+    text-decoration: underline;
+  }
+  .geo-img {
+    display: none;
+  }
+  .geo-img1 {
+    display: flex;
+    justify-content: end;
+  }
+
+  .intro {
+    display: flex;
+    margin-left: 100px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 32px;
+    padding: 32px;
+    background: url(images/image_dots.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100px 100px;
+  }
+
+  .container h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 110px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .container p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 80%;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: -70px;
+    padding: 0px;
+    width: 484px;
+    height: 84px;
+    left: 160px;
+  }
+  .collaborate {
+    width: 254px;
+    height: 30px;
+  }
+
+  .projects {
+    margin-top: 20px;
+  }
+  .project-card {
+    display: none;
+  }
+/* 
+  .section-1 {
+    display: flex;
+  }
+
+  .section-1 h2 {
+    width: 398px;
+    height: 110px;
+    left: 145px;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #1a2236;
+    transform: rotate(-90deg);
+  }
+
+  .project-heading {
+    width: 480px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-image: url(images/image_dots.png);
+    background-position: 105% 0%;
+    background-repeat: no-repeat; */
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 5%;
+    margin: 0;
+  }
+  .introduction {
+    margin: 0;
+    padding: 50px;
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    background-image: url(images/image_dots_with_teal.png);
+    background-position: 100% 75%;
+    background-size: 172px;
+    background-repeat: no-repeat;
+  }
+
+  .skills .languages,
+  .frameworks,
+  .skill {
+    width: 220px;
+  }
+
+  .contact img {
+    display: none;
+  }
+
+  .contact-me {
+    width: 100%;
+    background-image: url(images/image-geometry_6.png),
+      url(images/image-geometry_7.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 0%, 100% 100%;
+    background-size: 160px;
+    padding: 100px;
+    margin-top: 100px;
+  }
+  /* .section-2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .card-5-6 {
+    display: flex;
+    flex-direction: column-reverse;
+  } */
+}
